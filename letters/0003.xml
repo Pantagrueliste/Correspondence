@@ -1,35 +1,114 @@
-436r
-Molto Mag.co sig.re mio osservandissimo.
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>Letter from Filippo Cavriana to Jacopo Dani, 29 November 1569</title>
+        </titleStmt>
+        <publicationStmt>
+            <publisher>Clément Godbarge</publisher>
+            <pubPlace>St Andrews, Scotland, UK</pubPlace>
+        </publicationStmt>
+        <sourceDesc>
+            <msDesc>
+                <msIdentifier>
+                  <settlement>Florence</settlement>
+                  <repository>Archivio di Stato di Firenze</repository>
+                  <collection>Mediceo del Principato</collection>
+                  <idno>Filza 1317</idno>
+                </msIdentifier>
+                <msContents>
+                    <msItem>
+                      <locus from="436r" to="436v">fols. 436r–436v</locus>
+                      <title>Letter from Filippo Cavriana to Jacopo Dani</title>
+                      <author>Filippo Cavriana</author>
+                      <textLang mainLang="it">Italian</textLang>
+                      <note type="summary">This letter explains Cavriana's late submission of nobility proofs to the Santo Stefano Chivalry order, attributing the delay to his illness in Ancona and that of his patron, the Duke of Nevers.</note>
+                    </msItem>
+                </msContents>
+                <physDesc>
+                  <objectDesc form="letter">
+                      <supportDesc material="paper">
+                          <extent>
+                              <dimensions unit="mm">
+                                  <height>290</height>
+                                  <width>210</width>
+                              </dimensions>
+                          </extent>
+                      </supportDesc>
+                      <layoutDesc>
+                          <p>Single column, written on both sides of the folios</p>
+                      </layoutDesc>
+                  </objectDesc>
+                      <handDesc hands="2">
+                          <handNote xml:id="hand1" scope="major">Hand of Filippo Cavriana</handNote>
+                          <handNote xml:id="hand2" scope="minor">Hand of recipient, probably Jacopo Dani</handNote>
+                      </handDesc>
+                  </physDesc>
+            </msDesc>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <editorialDecl>
+            <p>Named entities are annotated only when they appear in the main hand. Named entities from sections or marginalia written by a different hand are not annotated. This decision preserves the focus on the primary scribe’s content and prevents potential misinterpretation or over-annotation of secondary additions.</p>
+        </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName xml:id="pers-cavriana-f">Filippo Cavriana</persName>
+                <settlement>Ancona</settlement>
+                <date when="1569-11-29"/>
+            </correspAction>
+            <correspAction type="received">
+                <persName xml:id="pers-dani-j">Jacopo Dani</persName>
+                <settlement>Firenze</settlement>
+                <date when="1569-12-12"/>
+            </correspAction>            
+        </correspDesc>
+    </profileDesc>
+</teiHeader>
+<text>
+    <body>
+<pb n="436r"/>
+<add hand="hand2" place="top left"><unclear reason="ilegible">~y</unclear>1 <choice><abbr>Xbre</abbr><expan>dicembre</expan></choice>
+<lb/>Filippo Cavriana</add>
+<opener>
+<lb/><salute>Molto <choice><abbr>Mag.co</abbr><expan>Magnifico</expan></choice> <choice><abbr>sig.re</abbr><expan>signore</expan></choice> mio osservandissimo.</salute>
+</opener>
 
-Credo che V.S. havrà inteso, che il Duca di Ne
-vers, mio si.re, gia tre mesi, è qui in Ancona,
-amalato gravemente, et da me intenderà hora,
-che io son vivo, (bontà di Dio), doppò l'essere sta-
-to lasciato, et pianto per morto, & questo ha
-fatto, che io non ho potuto rispondere alla lra
-di V.S. venuta a trovarmi qui in Ancona, có
-la forma delle provanze / Onde io prego V.S. a
-scusarmi del silentio tenutoi seco sin hora; non
-havendo havuto prima forze ne vigore di scrivere,
-Bastale saprere la ricevuta delle sue, et secon
-la forma mandatami, ho fatto fare le mie
-prove, le quali, mio Pré manderà al stuggio, fra
-doi giorni accioche col favor di V.S. et di lui
-si conduca il negotio a fine, piu tosto che serà
-possibile. Restami a ringraziarla dell'amorevo
+<lb/>Credo che <choice><abbr>V.S.<expan>Vostra Signoria</expan></abbr></choice>havrà inteso, che il <persName ref="#pers-nevers-duke">Duca di Ne<lb break="yes" hyphen="false"/>
+vers</persName>, mio <choice><abbr>si.re</abbr><expan>signore</expan></choice>, gia tre mesi, è qui in <placeName ref="#place-ancona" geo="43.6158, 13.5189">Ancona</placeName>,
+<lb/>amalato gravemente, et da me intenderà hora,
+<lb/>che io son vivo, (bontà di Dio), doppò l'essere <lb break="yes" hyphen="true"/>sta-
+<lb/>to lasciato, et pianto per morto, &amp; questo ha
+<lb/>fatto, che io non ho potuto rispondere alla <choice><abbr>lra</abbr><expan>lettera</expan></choice>
+<lb/>di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> venuta a trovarmi qui in <placeName ref="#place-ancona" geo="43.6158, 13.5189">Ancona</placeName>, <choice><abbr>có</abbr><expan>con</expan></choice>
+<lb/>la forma delle provanze / Onde io prego <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> a
+<lb/>scusarmi del silentio tenutoi seco sin hora; non
+<lb/>havendo havuto prima forze ne vigore di scrivere,
+<lb/>Bastale saprere la ricevuta delle sue, et secon<lb break="yes" hyphen="true"/>
+do la forma mandatami, ho fatto fare le mie
+<lb/>prove, le quali, mio <choice><abbr>Pré</abbr><expan>Padre</expan></choice> manderà al stuggio, fra
+<lb/>doi giorni accioche col favor di <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> et di lui
+<lb/>si conduca il negotio a fine, piu tosto che serà
+<lb/>possibile. Restami a ringraziarla dell'<seg type="split" part="I">amorevo</seg>
 
-436v
-lezza, che à me ha mostrato, piglianone tanta pena,
-quanta ha preso, ma io riserbo questo ufficio, ad
-altra occasione, essendo assai per adesso l'haverle
-detto, che io non morirò ingrato, di questo favore
-che da lei ricevo. et qui le bacio le mani. D'
-Ancona, il 29 di Novembre del 69.
-Di V.Signoria
+<pb n="436v"/>
+<lb/><seg type="split" part="F">lezza</seg>, che à me ha mostrato, pigliandone tanta pena,
+<lb/>quanta ha preso, ma io riserbo questo ufficio, ad
+<lb/>altra occasione, essendo assai per adesso l'haverle
+<lb/>detto, che io non morirò ingrato, di questo favore
+<lb/>che da lei ricevo. et qui le bacio le mani. D'
+<lb/><placeName ref="#place-ancona" geo="43.6158, 13.5189">Ancona</placeName>, il <date when="1569-11-29">29 di Novembre del 69</date>.
+<lb/>Di <choice><abbr>V.</abbr><expan>Vostra </expan></choice>Signoria
+<add hand="hand2" place="left">alli 12 <choice><abbr>Xbre</abbr><expan>dicembre</expan></choice></add>
+<lb/>affetto servitore
 
-affetto servitore
+<lb/><closer><signed>Filippo Cavriana</signed>
 
-Filippo Cavriana
-
-V.S. invierà le sue sempre a Mantova dove nó
-espettamo altro che buon tempo, per andare
+<lb/><postscript> <choice><abbr>V.S.</abbr><expan>Vostra Signoria</expan></choice> invierà le sue sempre a <placeName ref="#place-mantova" geo="45.1563, 10.7914">Mantova</placeName> dove nó
+<lb/>espettamo altro che buon tempo, per andare</postscript></closer>
+</body>
+</text>
+</TEI>
